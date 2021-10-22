@@ -33,7 +33,7 @@ class MyApp extends StatelessWidget {
                 bodyColor: Colors.white,
               ),
         ),
-        home: const MainPage(),
+        home: MainPage(),
       ),
     );
   }
