@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:ocean_tokyo_app/screens/config_page.dart';
 import 'package:ocean_tokyo_app/screens/menu_page.dart';
+import 'package:ocean_tokyo_app/screens/post_page.dart';
 import 'package:ocean_tokyo_app/screens/staff_page.dart';
 import 'package:ocean_tokyo_app/screens/top_page.dart';
 
@@ -15,6 +16,7 @@ class _MainPageState extends State<MainPage> {
   static final List<Widget> _widgetOptions = <Widget>[
     TopPage(),
     MenuPage(),
+    PostPage(),
     StaffPage(),
     ConfigPage(),
   ];
@@ -40,6 +42,10 @@ class _MainPageState extends State<MainPage> {
           BottomNavigationBarItem(
             icon: Icon(Icons.monetization_on),
             label: 'メニュー',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.add_circle_outline),
+            label: '',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.perm_identity),

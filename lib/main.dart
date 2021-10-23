@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.red,
           scaffoldBackgroundColor: Colors.white,
           textTheme: Theme.of(context).textTheme.apply(
-                bodyColor: Colors.white,
+                bodyColor: Colors.black,
               ),
         ),
         home: MainPage(),
