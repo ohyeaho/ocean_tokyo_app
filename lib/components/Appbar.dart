@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ocean_tokyo_app/screens/card_page.dart';
 
 class AppbarComponent extends StatelessWidget implements PreferredSizeWidget {
   final title;
@@ -15,10 +16,10 @@ class AppbarComponent extends StatelessWidget implements PreferredSizeWidget {
       actions: [
         IconButton(
           onPressed: () {
-            // Navigator.push(
-            //   context,
-            //   MaterialPageRoute(builder: (context) => CheckOfferPage()),
-            // );
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => CardPage()),
+            );
           },
           icon: Icon(Icons.credit_card),
         ),
