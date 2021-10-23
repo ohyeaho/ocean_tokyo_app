@@ -167,7 +167,7 @@ class MainPage extends StatelessWidget {
         tabBar: CupertinoTabBar(
           items: [
             BottomNavigationBarItem(
-              icon: Icon(Icons.near_me),
+              icon: Icon(Icons.cut),
               label: 'Top',
             ),
             BottomNavigationBarItem(

@@ -7,9 +7,6 @@ class TopPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppbarComponent(title: Text('OCEAN TOKYO App')),
-      // AppBar(
-      //   title: const Text('OCEAN TOKYO App'),
-      // ),
       drawer: DrawerComponent(),
       body: const Center(
         child: Text('OCEAN TOKYO'),
